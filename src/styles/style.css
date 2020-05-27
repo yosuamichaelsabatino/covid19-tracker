@@ -1,0 +1,75 @@
+.container {
+  padding: 16px;
+}
+.full-width {
+  width: 100%;
+}
+
+#search-bar {
+  margin: 20px 0px;
+}
+
+.title {
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.value {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.yellow-shadow {
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(255,165,0,.5) !important;
+  -moz-box-shadow: 10px 10px 15px 0px rgba(255,165,0,.5) !important;
+  box-shadow: 10px 10px 15px 0px rgba(255,165,0,.5) !important;
+}
+
+.green-shadow {
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(0,128,0,.5) !important;
+  -moz-box-shadow: 10px 10px 15px 0px rgba(0,128,0,.5) !important;
+  box-shadow: 10px 10px 15px 0px rgba(0,128,0,.5) !important;
+}
+
+.red-shadow {
+  -webkit-box-shadow: 10px 10px 15px 0px rgba(255,0,0,.5) !important;
+  -moz-box-shadow: 10px 10px 15px 0px rgba(255,0,0,.5) !important;
+  box-shadow: 10px 10px 15px 0px rgba(255,0,0,.5) !important;
+}
+
+#country-result > .row {
+  margin: 20px 0px;
+}
+
+.flag {
+  text-align: center;
+}
+
+.country-data {
+  margin: auto;
+  max-width: 800px;
+}
+.info-text {
+  width: 100%;
+  text-align: center;
+}
+
+.info-text > p {
+  color: #5e5e5e;
+  font-size: 13px;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+/* Media Query */
+@media (max-width: 990px) {
+  .value {
+    font-size: 30px;
+  }
+}
