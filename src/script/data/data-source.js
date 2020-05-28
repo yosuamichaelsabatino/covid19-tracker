@@ -8,9 +8,6 @@ class DataSource {
           return Promise.reject(`${keyword} is not listed in country list`);
         }
       })
-      .then(responseJson => {
-        return Promise.resolve(responseJson);
-      })
   }
 }
 
